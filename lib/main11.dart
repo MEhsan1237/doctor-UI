@@ -14,12 +14,12 @@ class MyAppName9 extends StatelessWidget {
   Widget build(BuildContext context) {
     TextEditingController controller = TextEditingController();
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.black26,
       appBar: AppBar(
         centerTitle: true,
         title: Text(
           "Dashboard",
-          style: TextStyle(color: Colors.black, fontSize: 18),
+          style: TextStyle(color: Colors.black, fontSize: 20,fontWeight: FontWeight.w400),
         ),
         actions: [
           Padding(
@@ -41,7 +41,8 @@ class MyAppName9 extends StatelessWidget {
                 width: double.infinity,
                 child: CircleAvatar(
                   radius: 60,
-                  backgroundImage: AssetImage("assets/images/dp.one.png"),
+
+                  foregroundImage: AssetImage("assets/images/dp.one.png",),
                 ),
               ),
               Column(
@@ -110,29 +111,32 @@ class MyAppName9 extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(15.0),
             child: Container(
+
               height: 120,
-              width: double.infinity,
+              width:double.infinity,
               decoration: BoxDecoration(
+
                 borderRadius: BorderRadius.circular(20),
                 image: DecorationImage(
-                  image: AssetImage("assets/images/doctors.one.png"),
+
+                  image: AssetImage("assets/images/doctors.four.png"),
                   fit: BoxFit.cover, // image ko container ke andar adjust karega
                 ),
               ),
             )
 
           ),
-          SizedBox(height: 3,),
+
           Container(
            width: double.infinity,
             child: ListTile(
               leading: Text(
                 "Top Doctors",
-                style: TextStyle(color: Colors.white, fontSize: 20),
+                style: TextStyle(color: Colors.black, fontSize: 20),
               ),
-              trailing: Icon(Icons.filter_list_rounded),
+              trailing: Icon(Icons.filter_list_rounded,color: Colors.black,),
             ),
           ),
           Expanded(
@@ -143,7 +147,7 @@ class MyAppName9 extends StatelessWidget {
                return Container(
                  margin: EdgeInsets.all(20),
                  decoration: BoxDecoration(
-                   color: Colors.white,
+                   color: Colors.white70,
 
 
 
