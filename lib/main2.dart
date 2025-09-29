@@ -32,6 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
           });
         },
         selectedItemColor: Colors.red,
+        
         unselectedItemColor: Colors.grey,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home),label: "hi"),
