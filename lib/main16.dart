@@ -5,6 +5,7 @@ import 'launchurl/launchfile.dart';
 
  void main(){
    runApp(MaterialApp(
+     debugShowCheckedModeBanner: false,
      home: WebsiteScreen(),
    ));
  }
