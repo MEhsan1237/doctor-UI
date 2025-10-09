@@ -36,4 +36,4 @@ class _ClipBordFileScreenState extends State<ClipBordFileScreen> {
   }
 }
 
-copy text
+
