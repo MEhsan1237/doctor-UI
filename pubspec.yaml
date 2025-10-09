@@ -41,6 +41,7 @@ dependencies:
   webview_flutter: ^4.13.0
   language_picker: ^0.4.5
   fl_country_code_picker: ^0.1.9+1
+  scratcher: ^2.5.0
 
 dev_dependencies:
   flutter_test:
