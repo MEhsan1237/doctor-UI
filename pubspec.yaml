@@ -42,6 +42,8 @@ dependencies:
   language_picker: ^0.4.5
   fl_country_code_picker: ^0.1.9+1
   scratcher: ^2.5.0
+  carousel_slider: ^5.1.1
+  clipboard: ^2.0.2
 
 dev_dependencies:
   flutter_test:
